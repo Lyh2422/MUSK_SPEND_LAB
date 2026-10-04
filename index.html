@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>花掉马斯克的钱｜财富模拟器</title>
   <meta name="description" content="以 2026 年 10 月公开财富快照为基准，体验花掉 9187 亿美元到底有多难。" />
-  <link rel="preload" href="assets/luxury-world.png" as="image" />
+  <link rel="preload" href="luxury-world-small.jpg" as="image" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23090b10'/%3E%3Cpath d='M16 42 27 18l8 17 5-10 8 17' fill='none' stroke='%23d9ff57' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
   <style>
     :root{--ink:#f4f7ee;--muted:#9da59a;--panel:#12161a;--line:#2a312c;--acid:#d9ff57;--acid2:#96e73f;--gold:#f1c66b;--danger:#ff7068;--bg:#080a0d;--shadow:0 28px 90px rgba(0,0,0,.26)}
@@ -22,7 +22,7 @@
     <header class="topbar"><div class="brand"><div class="mark">M</div><span>MUSK SPEND LAB</span></div><div class="source"><strong>财富快照</strong><br>2026.10.02 · Forbes</div></header>
     <section class="hud">
       <div class="wealth" id="wealthPanel"><div class="kicker">剩余资产 / Estimated net worth</div><div class="wealth-row"><div class="wealth-number" id="wealth">$918.700<span>BILLION</span></div><div class="rank">全球财富排名<b>#1</b></div></div><div class="track-wrap"><div class="track"><div class="fill" id="fill"></div></div><div class="milestones"><i></i><i></i><i></i></div></div><div class="hud-meta"><span>已消费 <b id="spent">$0</b></span><span id="percent">剩余 100.000000%</span></div></div>
-      <aside class="challenge"><img src="assets/luxury-world.png" alt="私人飞机、超级游艇、豪宅与跑车组成的奢华场景" /><div class="challenge-copy"><div class="kicker">本轮挑战</div><h2 id="challengeTitle">先花掉他的 0.001%</h2><p id="challengeCopy">大约 919 万美元。听着很多，但财富进度条几乎不会动。</p><div class="pace" id="pace">现在还够买 10,208 架湾流 G700</div></div></aside>
+      <aside class="challenge"><img src="luxury-world-small.jpg" alt="私人飞机、超级游艇、豪宅与跑车组成的奢华场景" /><div class="challenge-copy"><div class="kicker">本轮挑战</div><h2 id="challengeTitle">先花掉他的 0.001%</h2><p id="challengeCopy">大约 919 万美元。听着很多，但财富进度条几乎不会动。</p><div class="pace" id="pace">现在还够买 10,208 架湾流 G700</div></div></aside>
     </section>
     <section class="workspace">
       <div class="catalog"><div class="tools"><div><div class="kicker">Luxury catalog</div><h2>今天想买点什么？</h2></div><div class="control-set" aria-label="购买数量"><span class="source">一次买</span><button class="pill active" data-mult="1">×1</button><button class="pill" data-mult="10">×10</button><button class="pill" data-mult="100">×100</button></div></div><div class="filters" id="filters" aria-label="商品分类"></div><div class="grid" id="grid"></div><div class="facts"><div class="fact"><div class="fact-label">已花掉财富比例</div><div class="fact-value acid" id="spentPct">0.000000%</div></div><div class="fact"><div class="fact-label">普通人年薪（按 $70K）</div><div class="fact-value" id="salaryYears">0 年</div></div><div class="fact"><div class="fact-label">还能每天花 $100 万</div><div class="fact-value" id="millionDays">2,516,986 天</div></div></div></div>
